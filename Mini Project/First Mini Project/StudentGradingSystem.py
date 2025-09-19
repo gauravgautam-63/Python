@@ -17,7 +17,7 @@ def to_gpa(marks):
     elif 50 <= marks < 60:
         return 2.7
     else:
-        return 0
+        return 0.0
 
 ds_gpa = to_gpa(ds)
 oop_gpa = to_gpa(oop)
