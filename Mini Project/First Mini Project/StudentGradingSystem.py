@@ -11,7 +11,7 @@ def to_gpa(marks):
     elif 80 <= marks < 90:
         return 3.7
     elif 70 <= marks < 80:
-        return 3.3
+        return 3.3  
     elif 60 <= marks < 70:
         return 3.0
     elif 50 <= marks < 60:
@@ -30,6 +30,3 @@ percentage= ((ds+oop+mp+mth+stat)/500)*100
 # Display results
 print(f"\nYour CGPA: {cgpa:.2f}")
 print(f"Equivalent Percentage: {percentage:.2f}%")
-
-percgpa=percentage/25;
-print(f"Percentage GPA: {percgpa:.2f}")
