@@ -37,7 +37,7 @@ a = True
 b = False
 print("AND operation:", a and b)  # False
 print("OR operation:", a or b)    # True
-print("NOT operation:", not a)    # False
+print("NOT operation:", not a)    #  False
 
 # LISTS
 # A list is an ordered, changeable collection that allows duplicate elements.
